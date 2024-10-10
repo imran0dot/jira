@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Calendar } from "@/components/ui/calendar";
 import { Input } from "@/components/ui/input";
 import { Select } from "@/components/ui/select";
 
@@ -17,6 +18,7 @@ export default function Home() {
       </div>
 
       <div>
+        <Calendar />
         <Input />
         <Select />
       </div>
